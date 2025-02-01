@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    /* background-image: url(../storage/img/banner.png); */
+    background-image: url(../storage/img/banner.png);
 }
 
             /*** Header ***/
@@ -56,4 +56,42 @@ body{
 
 .ul__menu li a:hover{
     opacity: 0.8;
+}
+
+            /*** Main ***/
+
+.main{
+    background-color: rebeccapurple;
+    padding: 15px;
+}
+
+.section__home{
+    background-color: beige;
+    padding: 15px;
+}
+
+.article__home{
+    background-color: aqua;
+    padding: 15px;
+}
+.article__home span{
+    background-color: black;
+    padding: 15px;
+}
+.article__home h1{
+    background-color: white;
+    padding: 15px;
+}
+.article__home p{
+    background-color: brown;
+    padding: 15px;
+}
+
+.section__ellipses{
+    background-color: lightgreen;
+    padding: 15px;
+}
+.section__ellipses img{
+    background-color: red;
+    padding: 15px;
 }
