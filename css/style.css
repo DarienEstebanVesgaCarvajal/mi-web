@@ -5,3 +5,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+            /*** Header ***/
+
+.header{
+    background-color: blue;
+    padding: 15px;
+}
+
+.div__logo{
+    background-color: red;
+    padding: 15px;
+}
+.div__logo img{
+
+}
+
+.div__menu{
+    background-color: blanchedalmond;
+    padding: 15px;
+}
+
+.ul__menu{
+    background-color: violet;
+    padding: 15px;
+}
+.ul__menu li{
+
+}

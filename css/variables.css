@@ -1,9 +1,7 @@
 :root{
-    --color-1: Blue;
-    --color-2: White;
-    --color-2: Violet;
+    --font-color-1: #eee;
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Montserrat-SemiBold.ttf";
+    src: url(../storage/fonts/Montserrat-SemiBold.ttf)
 }
