@@ -9,27 +9,40 @@
             /*** Header ***/
 
 .header{
-    background-color: blue;
-    padding: 15px;
+    /* background-color: blue;
+    padding: 15px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
 }
 
 .div__logo{
-    background-color: red;
-    padding: 15px;
+    /* background-color: red;
+    padding: 15px; */
 }
 .div__logo img{
 
 }
 
 .div__menu{
-    background-color: blanchedalmond;
-    padding: 15px;
+    /* background-color: blanchedalmond;
+    padding: 15px; */
 }
 
 .ul__menu{
-    background-color: violet;
-    padding: 15px;
+    /* background-color: violet;
+    padding: 15px; */
+    display: flex;
+    gap: 100px;
+    padding-right: 100px;
+    color: var(--font-color-1);
 }
 .ul__menu li{
-
+    list-style: none;
+    font-family: "Montserrat-SemiBold";
 }
