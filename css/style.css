@@ -9,8 +9,6 @@
             /*** Header ***/
 
 .header{
-    /* background-color: blue; */
-    /* padding: 15px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,22 +18,7 @@
     z-index: 10;
 }
 
-.div__logo{
-    /* background-color: red; */
-    /* padding: 15px; */
-}
-.div__logo img{
-
-}
-
-.div__menu{
-    /* background-color: blanchedalmond; */
-    /* padding: 15px; */
-}
-
 .ul__menu{
-    /* background-color: violet; */
-    /* padding: 15px; */
     display: flex;
     gap: 100px;
     padding-right: 100px;
@@ -57,24 +40,15 @@
 
             /*** Main ***/
 
-.main{
-    /* background-color: rebeccapurple; */
-    /* padding: 15px; */
-}
-
 .section__home{
     background-image: linear-gradient(var(--color-gradient-1), var(--color-gradient-2) 100%), var(--banner-1);
-    /* background-color: red; */
     background-size: cover;
     background-position: cover;
     background-repeat: no-repeat;
     height: 135svh;
-    /* padding: 15px; */
 }
 
 .article__home{
-    /* background-color: aqua; */
-    /* padding: 15px; */
     width: 626px;
     height: 360px;
     position: relative;
@@ -85,22 +59,16 @@
     color: var(--font-color-1);
 }
 .article__home span{
-    /* background-color: grey; */
     font-style: 28px;
     font-family: "Montserrat-SemiBold";
-    /* padding: 15px; */
 }
 .article__home h1{
-    /* background-color: white; */
     font-size: 75px;
     font-family: "Montserrat-SemiBold";
-    /* padding: 15px; */
 }
 .article__home p{
-    /* background-color: brown; */
     width: 340px;
     font-family: "Montserrat-Medium";
-    /* padding: 15px; */
 }
 
             /*** Menu ***/
@@ -109,15 +77,9 @@
     background-color: #071917;
     display: flex;
     justify-content: space-between;
-    /* padding: 15px; */
-}
-.section__ellipses img{
-    /* background-color: red; */
-    /* padding: 15px; */
 }
 
             /*** Mobile version ***/
-
 
             /*** To 960px ***/
 
@@ -126,7 +88,6 @@
             /*** Mobile Header ***/
 
     .header{
-        /* background-color: blue; */
         padding: 15px;
     }
 
@@ -145,14 +106,8 @@
     .article__home{
         left: 0;
     }
-    .article__home span{
-    
-    }
     .article__home h1{
         font-size: 70px;
-    }
-    .article__home p{
-
     }
 
             /*** Mobile Menu ***/
@@ -174,17 +129,14 @@
             /*** Mobile Header ***/
 
     .header{
-        /* background: yellow; */
         justify-content: normal;
     }
 
     .div__logo{
-        /* background: green; */
         flex: 1;
     }
 
     .div__menu{
-        /* background: beige; */
         width: 100%;
     }
 
