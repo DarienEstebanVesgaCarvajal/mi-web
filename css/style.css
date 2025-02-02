@@ -5,9 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url(../storage/img/banner.png);
-}
 
             /*** Header ***/
 
@@ -61,37 +58,38 @@ body{
             /*** Main ***/
 
 .main{
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     padding: 15px;
 }
 
 .section__home{
-    background-color: beige;
+    background-image: linear-gradient(var(--color-gradient-1), var(--color-gradient-2) 100%), var(--banner-1);
+    /* background-color: beige; */
     padding: 15px;
 }
 
 .article__home{
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 15px;
 }
 .article__home span{
-    background-color: grey;
+    /* background-color: grey; */
     padding: 15px;
 }
 .article__home h1{
-    background-color: white;
+    /* background-color: white; */
     padding: 15px;
 }
 .article__home p{
-    background-color: brown;
+    /* background-color: brown; */
     padding: 15px;
 }
 
 .section__ellipses{
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     padding: 15px;
 }
 .section__ellipses img{
-    background-color: red;
+    /* background-color: red; */
     padding: 15px;
 }
