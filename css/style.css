@@ -163,3 +163,44 @@
         font-size: 60px;
     }
 }
+
+            /*** Work ***/
+
+.section__firstwork{
+    background-color: yellow;
+    padding: 15px;
+}
+.section__firstwork img{
+    background-color: blue;
+    padding: 15px;
+}
+.section__firstwork p{
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.section__secondwork{
+    background-color: rebeccapurple;
+    padding: 15px;
+}
+.section__secondwork img{
+    background-color: beige;
+    padding: 15px;
+}
+.section__secondwork p{
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.section__thirdwork{
+    background-color: aqua;
+    padding: 15px;
+}
+.section__thirdwork img{
+    background-color: white;
+    padding: 15px;
+}
+.section__thirdwork p{
+    background-color: whitesmoke;
+    padding: 15px;
+}
