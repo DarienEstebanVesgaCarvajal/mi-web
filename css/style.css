@@ -115,3 +115,99 @@
     /* background-color: red; */
     /* padding: 15px; */
 }
+
+            /*** Mobile version ***/
+
+
+            /*** To 960px ***/
+
+@media (max-width: 960px){
+
+            /*** Mobile Header ***/
+
+    .header{
+        /* background-color: blue; */
+        padding: 15px;
+    }
+
+    .ul__menu{
+        gap: 15px;
+        padding-right: 15px;
+    }
+
+            /*** Mobile Main ***/
+
+    .section__home{
+        display: flex;
+        justify-content: space-around
+    }
+
+    .article__home{
+        left: 0;
+    }
+    .article__home span{
+    
+    }
+    .article__home h1{
+        font-size: 70px;
+    }
+    .article__home p{
+
+    }
+
+            /*** Mobile Menu ***/
+
+    .section__ellipses{
+        justify-content: space-around;
+    }
+    .section__ellipses img{
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }
+}
+
+            /*** For 576px ***/
+
+@media (max-width: 576px) {
+
+            /*** Mobile Header ***/
+
+    .header{
+        /* background: yellow; */
+        justify-content: normal;
+    }
+
+    .div__logo{
+        /* background: green; */
+        flex: 1;
+    }
+
+    .div__menu{
+        /* background: beige; */
+        width: 100%;
+    }
+
+    .ul__menu{
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+            /*** Mobile Main ***/
+
+    .section__home{
+        display: flex;
+        justify-content: normal;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 95svh;
+    }
+
+    .article__home{
+        top: 25svh;
+    }
+    .article__home h1{
+        font-size: 60px;
+    }
+}
