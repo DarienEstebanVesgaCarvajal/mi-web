@@ -167,18 +167,33 @@
             /*** Work ***/
 
 .section__work{
-    background-color: yellow;
-    padding: 15px;
+    background-color: var(--color-gradient-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vw;
+    /* padding: 15px; */
 }
-.section__work div{
-    background-color: red;
-    padding: 15px;
+.container{
+    /* background-color: red; */
+    position: relative;
+    width: 97vw;
+    padding-bottom: 2vw;
+    /* padding: 15px; */
 }
-.section__work img{
-    background-color: blue;
-    padding: 15px;
+.container img{
+    /* background-color: blue; */
+    width: 100%;
+    height: auto;
+    /* padding: 15px; */
 }
-.section__work p{
-    background-color: whitesmoke;
-    padding: 15px;
+.container p{
+    /* background-color: whitesmoke; */
+    position: absolute;
+    bottom: 7vw;
+    left: 3vw;
+    font-family: "Montserrat-SemiBold";
+    color: var(--font-color-1);
+    font-size: 5vw;
+    /* padding: 15px; */
 }
