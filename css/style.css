@@ -197,3 +197,27 @@
     font-size: 5vw;
     /* padding: 15px; */
 }
+
+            /*** Carousel ***/
+
+.section__carousel{
+    background-color: red;
+    padding: 15px;
+}
+
+.section__box{
+    background-color: blue;
+    padding: 15px;
+}
+.section__box img{
+    background-color: antiquewhite;
+    padding: 15px;
+}
+.section__box h1{
+    background-color: blueviolet;
+    padding: 15px;
+}
+.section__box p{
+    background-color: yellowgreen;
+    padding: 15px;
+}
