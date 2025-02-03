@@ -174,20 +174,20 @@
     padding-top: 3vw;
     /* padding: 15px; */
 }
-.container{
+.div__container{
     /* background-color: red; */
     position: relative;
     width: 97vw;
     padding-bottom: 2vw;
     /* padding: 15px; */
 }
-.container img{
+.div__container img{
     /* background-color: blue; */
     width: 100%;
     height: auto;
     /* padding: 15px; */
 }
-.container p{
+.div__container p{
     /* background-color: whitesmoke; */
     position: absolute;
     bottom: 7vw;
@@ -205,19 +205,19 @@
     padding: 15px;
 }
 
-.section__box{
+.div__box{
     background-color: blue;
     padding: 15px;
 }
-.section__box img{
+.div__box img{
     background-color: antiquewhite;
     padding: 15px;
 }
-.section__box h1{
+.div__box h1{
     background-color: blueviolet;
     padding: 15px;
 }
-.section__box p{
+.div__box p{
     background-color: yellowgreen;
     padding: 15px;
 }
